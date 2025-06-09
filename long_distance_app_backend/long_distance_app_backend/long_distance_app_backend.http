@@ -1,0 +1,6 @@
+@long_distance_app_backend_HostAddress = http://localhost:5106
+
+GET {{long_distance_app_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

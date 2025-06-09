@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "WWjUl+ix9u/mH86cCfqHu0SWsukee1sO33bXbUOd9+M=",
+  "Source": "long_distance_app_backend",
+  "BasePath": "_content/long_distance_app_backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

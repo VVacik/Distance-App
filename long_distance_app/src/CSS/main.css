@@ -1,0 +1,12 @@
+body {
+  background: rgb(212, 228, 209);
+  background: fixed no-repeat
+    linear-gradient(
+      0deg,
+      rgba(233, 255, 229, 1) 0%,
+      rgb(251, 230, 255) 51%,
+      rgb(186, 213, 248) 100%
+    );
+  margin: 0;
+  box-sizing: border-box;
+}

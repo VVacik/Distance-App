@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\long_distance_app_backend.props" />
+</Project>

@@ -1,0 +1,41 @@
+.imageItem {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* Zawsze kwadrat */
+  object-fit: cover; /* Przycięcie do kwadratu */
+  border-radius: 10px; /* Opcjonalne zaokrąglenie */
+  border: 1px solid white;
+  position: relative;
+}
+.Item {
+  position: relative; /* Ustawiamy relative na kontenerze, żeby checkbox mógł być absolutnie pozycjonowany */
+}
+
+.Item input[type="checkbox"] {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 10; /* Zapewnia, że checkbox będzie widoczny na wierzchu */
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 2px solid #4caf50;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.Item input[type="checkbox"]:checked {
+  background-color: #4caf50; /* Zielony kolor po zaznaczeniu */
+  border-color: #4caf50;
+}
+
+.Item input[type="checkbox"]:checked:after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
